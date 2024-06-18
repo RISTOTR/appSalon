@@ -1,6 +1,6 @@
 # Reservation App
 
-This is a reservation application that allows users to make, cancel, and delete reservations. The application includes user authentication with hashed passwords and an admin role. The frontend is built with Vue.js and the backend uses Node.js with MongoDB as the database.
+This is a reservation application that allows users to create, edit, and delete reservations. The application includes user authentication with hashed passwords and an admin role. The frontend is built with Vue.js and the backend uses Node.js with MongoDB as the database.
 
 ## Table of Contents
 
