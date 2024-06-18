@@ -61,7 +61,7 @@ This is a reservation application that allows users to make, cancel, and delete 
     npm install
     ```
 
-4. Set up environment variables:
+4. Set up environment variables backend:
 
    Create a `.env` file in the `backend` directory with the following variables:
     ```env
@@ -71,6 +71,13 @@ This is a reservation application that allows users to make, cancel, and delete 
     EMAIL_PORT=your_email_port
     EMAIL_USER=your_email_user
     EMAIL_PASS=your_email_password
+    ```
+
+5. Set up environment variables frontend:
+
+   Create a `.env` file in the `frontend` directory with the following variables:
+    ```env
+    VITE_API_URL = http://127.0.0.1:8080/api
     ```
 
 ## Usage
